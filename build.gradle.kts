@@ -27,7 +27,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
-    implementation("org.apache.commons:commons-lang3:3.7")
+    implementation("com.google.guava:guava:28.2-jre")
 
     implementation("com.zaxxer:HikariCP:3.4.2")
     runtimeOnly("org.postgresql:postgresql:42.2.12")
